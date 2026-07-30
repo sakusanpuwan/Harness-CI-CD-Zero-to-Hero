@@ -8,8 +8,9 @@ pipeline:
     ci:
       codebase:
         connectorRef: GitHub
-        repoName: https://github.com/sakusanpuwan/Harness-CI-CD-Zero-to-Hero.git
+        repoName: Harness-CI-CD-Zero-to-Hero
         build: <+input>
+        sparseCheckout: []
   stages:
     - stage:
         name: dev
